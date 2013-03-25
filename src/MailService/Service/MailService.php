@@ -11,6 +11,7 @@ class MailService extends Message {
 
     public function __construct(ServiceLocatorInterface $sm) {
         $this->mailservice = $sm->get('MailService');
+        $this->setEncoding("UTF-8");    
     }
 
     public function send()
