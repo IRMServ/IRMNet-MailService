@@ -75,10 +75,12 @@ class MailService {
 
     public function addBcc($bcc) {
         $this->mail->addBcc($bcc);
+        return $this;
     }
 
     public function addCc($cc) {
         $this->mail->addCc($cc);
+        return $this;
     }
 
 }
