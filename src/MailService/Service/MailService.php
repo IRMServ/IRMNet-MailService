@@ -61,6 +61,7 @@ class MailService {
 
     public function setSubject($subject) {
         $this->mail->setSubject($subject);
+        return $this;
     }
 
     public function setBody(array $body) {
