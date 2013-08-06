@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Convite individual</title>
+    </head>
+    <body>
+        <h1>Convite individual de hora extra</h1>
+        <?php echo $this->sujeito?>,<br/>
+        <p>Voc&ecirc; acaba de abrir um convite de hora extra para o(s) dia(s) <?php echo $this->inicio?> e <?php echo $this->fim?>
+        com o seguinte motivo: <br/><br/><?php echo $this->motivo?>
+        </p>
+        <p>Prezado(a) <?php echo $this->gerente?>, podes aprovar o convite de <?php echo $this->sujeito?>? <br/><br/>
+        </p>
+        
+        <p>Para acomapanhar seus convites clique no link abaixo:<br/><br/>
+        <a href="http://irm.intranet<?php echo $this->url('convite-hora-extra/me',array())?>">Convite <?php echo $this->aberto?></a><br/><br/></p>
+        <hr/>
+        Departamento de T.I.<br/><br/>
+        &copy; <?php echo date('Y');?> IRM Services. Todos os direitos reservados.
+    </body>
+</html>

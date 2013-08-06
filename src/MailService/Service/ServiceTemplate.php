@@ -12,4 +12,12 @@ class ServiceTemplate {
    
    const HELPDESK_RESPOSTA =  'helpdesk/resposta';
    
+   const DP_CONVITE_INDIVIDUAL =  'dp/convite-individual';
+   
+   const DP_CONVITE_INDIVIDUAL_GESTOR_APROVAR =  'dp/convite-individual-gestor-aprovar';
+   
+   const DP_CONVITE_INDIVIDUAL_ROSE_APROVAR =  'dp/convite-individual-rose-aprovar';
+   
+   const DP_CONVITE_INDIVIDUAL_APROVADO =  'dp/convite-individual-aprovado';
+   
 }
