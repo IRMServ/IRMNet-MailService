@@ -34,6 +34,8 @@ return array(
             'dp/convite-coletivo-gestor-aprovar' => __DIR__ . '/../view/dp/convite-coletivo-gestor-aprovar.phtml',
             'dp/convite-individual-rose-aprovar' => __DIR__ . '/../view/dp/convite-individual-rose-aprovar.phtml',
             'dp/convite-individual-aprovado' => __DIR__ . '/../view/dp/convite-individual-aprovado.phtml',
+            'dp/convite-individual-rose-negar' => __DIR__ . '/../view/dp/convite-individual-rose-negar.phtml',
+            'dp/convite-individual-negar' => __DIR__ . '/../view/dp/convite-individual-negar.phtml',
             
         ),
         'template_path_stack' => array(

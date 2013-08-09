@@ -24,4 +24,8 @@ class ServiceTemplate {
    
    const DP_CONVITE_INDIVIDUAL_APROVADO =  'dp/convite-individual-aprovado';
    
+   const DP_CONVITE_ROSE_NEGAR =  'dp/convite-individual-rose-aprovar';
+   
+   const DP_CONVITE_GESTOR_NEGAR =  'dp/convite-individual-aprovado';
+   
 }
