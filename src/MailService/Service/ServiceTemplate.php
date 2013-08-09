@@ -16,6 +16,10 @@ class ServiceTemplate {
    
    const DP_CONVITE_INDIVIDUAL_GESTOR_APROVAR =  'dp/convite-individual-gestor-aprovar';
    
+   const DP_CONVITE_COLETIVO =  'dp/convite-coletivo';
+   
+   const DP_CONVITE_COLETIVO_GESTOR_APROVAR =  'dp/convite-coletivo-gestor-aprovar';
+   
    const DP_CONVITE_INDIVIDUAL_ROSE_APROVAR =  'dp/convite-individual-rose-aprovar';
    
    const DP_CONVITE_INDIVIDUAL_APROVADO =  'dp/convite-individual-aprovado';

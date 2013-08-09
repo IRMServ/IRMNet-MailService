@@ -24,10 +24,16 @@ return array(
             'layout/layout' => realpath(__DIR__ . '/../../base/view/layout/layout.phtml'),
             'application/index/index' => __DIR__ . '/../../base/view/application/index/index.phtml',
           
-            'envio/teste' => __DIR__ . '/../view/envio/teste.phtml',
+           'envio/teste' => __DIR__ . '/../view/envio/teste.phtml',
             'helpdesk/resposta' => __DIR__ . '/../view/helpdesk/email-resposta-chamado.phtml',
             'helpdesk/abertura' => __DIR__ . '/../view/helpdesk/email-abertura-chamado.phtml',
             'helpdesk/fechamento' => __DIR__ . '/../view/helpdesk/email-fechar-chamado.phtml',
+            'dp/convite-individual' => __DIR__ . '/../view/dp/convite-individual.phtml',
+            'dp/convite-individual-gestor-aprovar' => __DIR__ . '/../view/dp/convite-individual-gestor-aprovar.phtml',
+            'dp/convite-coletivo' => __DIR__ . '/../view/dp/convite-coletivo.phtml',
+            'dp/convite-coletivo-gestor-aprovar' => __DIR__ . '/../view/dp/convite-coletivo-gestor-aprovar.phtml',
+            'dp/convite-individual-rose-aprovar' => __DIR__ . '/../view/dp/convite-individual-rose-aprovar.phtml',
+            'dp/convite-individual-aprovado' => __DIR__ . '/../view/dp/convite-individual-aprovado.phtml',
             
         ),
         'template_path_stack' => array(
