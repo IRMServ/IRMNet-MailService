@@ -28,4 +28,6 @@ class ServiceTemplate {
    
    const DP_CONVITE_GESTOR_NEGAR =  'dp/convite-individual-aprovado';
    
+   const RH_NOTICIA =  'rh/noticia';
+   
 }

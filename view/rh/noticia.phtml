@@ -1,0 +1,81 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            *{
+                border:0;
+                margin:0;
+                padding:0;
+                color:#666;
+            }
+            #wrap
+            {
+                width:100%;
+                height:100%;
+            }
+            h1
+            {
+                color:#666;
+                margin-top:20px;
+                margin-bottom:20px;
+                text-align: center;
+            }
+            hr
+            {
+                margin-top:5px;
+                margin-bottom:5px;
+                height:2px;
+                width:100%;
+                display:block;
+
+                color:#6B120E;
+                background-color:#6B120E;
+            }
+            #content
+            {
+                width:800px;
+                margin:0 auto;
+                text-align: justify;
+            }
+
+            p
+            {
+                margin-top:5px;
+                margin-bottom:5px;
+            }
+            #logo
+            {
+                text-align: center;
+                margin-top:20px;
+            }
+        </style>
+        <script>
+            window.addEventListener('close', 'fechar');
+            function fechar() {
+                alert('wret');
+                return confirm("Close window?");
+            }
+        </script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="content">
+                <div id="logo">
+                    <img src="http://189.127.75.35:81/Assinaturas/logo-mail.jpg"/>
+                </div>
+                <div id="body">
+                    <h1><?php echo $this->titulo ?></h1>
+                    <hr/>
+                    <?php echo nl2br($this->corpo) ?>
+                    <hr/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

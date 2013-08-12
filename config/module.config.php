@@ -36,6 +36,7 @@ return array(
             'dp/convite-individual-aprovado' => __DIR__ . '/../view/dp/convite-individual-aprovado.phtml',
             'dp/convite-individual-rose-negar' => __DIR__ . '/../view/dp/convite-individual-rose-negar.phtml',
             'dp/convite-individual-negar' => __DIR__ . '/../view/dp/convite-individual-negar.phtml',
+            'rh/noticia' => __DIR__ . '/../view/rh/noticia.phtml',
             
         ),
         'template_path_stack' => array(
